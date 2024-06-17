@@ -16,6 +16,7 @@ export const defaultConfig: ConfigInterface = {
     servers: true,
     operations: true,
     messages: true,
+    messageExamplesAlways: false,
     schemas: true,
     errors: true,
   },

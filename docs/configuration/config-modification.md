@@ -17,6 +17,7 @@ interface ConfigInterface {
     servers?: boolean;
     operations?: boolean;
     messages?: boolean;
+    messageExamplesAlways?: boolean;
     schemas?: boolean;
     errors?: boolean;
   };
@@ -45,7 +46,7 @@ interface ConfigInterface {
 - **show?: Partial<ShowConfig>**
 
   This field contains configuration responsible for rendering specific parts of the AsyncAPI component.
-  All except the `sidebar` fields are set to `true` by default.
+  All except the `sidebar` and `messageExamplesAlways` fields are set to `true` by default.
 
 - **sidebar?: Partial<SideBarConfig>**
 
