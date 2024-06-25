@@ -24,7 +24,7 @@
     "clean": "lerna clean",
     "start": "lerna exec --parallel -- npm run start",
     "test": "cd library && npm test",
-    "build": "npm run build:library && npm run build:webcomponent && npm run build:playground",
+    "build": "npm run build:library",
     "build:library": "cd library && npm run prepare",
     "build:webcomponent": "cd web-component && npm run bundle",
     "build:playground": "cd playground && npm run build",
