@@ -46,7 +46,7 @@ interface ConfigInterface {
 - **show?: Partial<ShowConfig>**
 
   This field contains configuration responsible for rendering specific parts of the AsyncAPI component.
-  All except the `sidebar` and `messageExamples` fields are set to `true` by default.
+  The `sidebar` and `messageExamples` fields are set to `false` by default. The default for all other fields is `true`.
 
   The examples for messages shown within an operation are always displayed. To also show examples for the
   standalone messages in the "Messages" section, set `messageExamples` to `true`.
