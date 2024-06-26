@@ -1,5 +1,5 @@
 {
-  "name": "@asyncapi/react-component",
+  "name": "@spree-packages/asyncapi-react-component",
   "version": "2.0.4",
   "private": false,
   "description": "A React component for AsyncAPI specification.",
@@ -77,10 +77,6 @@
     "marked": "^4.0.14",
     "openapi-sampler": "^1.2.1",
     "use-resize-observer": "^9.1.0"
-  },
-  "peerDependencies": {
-    "react": ">=18.0.0",
-    "react-dom": ">=18.0.0"
   },
   "devDependencies": {
     "@cypress/webpack-preprocessor": "^5.9.0",
